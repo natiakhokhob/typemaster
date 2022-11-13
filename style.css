@@ -119,6 +119,7 @@ color: #7B8BAD;
 
 }
 .active{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -129,6 +130,7 @@ color: #7B8BAD;
 }
 
 .release-on{
+    margin-right: 4.2rem;
     width: 12.7rem;
     height: 2.6rem;
 
@@ -143,15 +145,16 @@ color: #7B8BAD;
  }
 
  .keyboard{
-    width: 44.233rem;
+    width: 100%;
+    /*width: 44.233rem;*/
     height: 40.966rem;
     position: absolute;
     left: -6.733rem;
     top: 44.543rem;
-    overflow: hidden;
  }
 .keyboard-photo{
-    width: 37.2rem;
+    width: 100%;
+   /* width: 37.2rem;*/
     height: 33.1rem;
     border-radius: 2rem;
     margin-left: 9.133rem;
@@ -159,6 +162,7 @@ color: #7B8BAD;
 }
 
 .images{
+    width: 100%;
     display: flex;
     flex-direction: row;
     column-gap: 1.351rem;
