@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    
+
+}
+
+
+@media screen and (min-width: 770px) {
+  
+   header{
+        margin-top: 4.9rem;
+    }
+    .logo{
+        margin-left: 3.9rem;
+    }
+    .pre-order1{
+        margin-right: 4rem;
+        width: 17.5rem;
+        height: 5.8rem;
+    }
+  
+    .text-photo{
+        display: flex;
+        flex-direction: row;
+    }
+    .title{
+        width: 33.9rem;
+        height: 9.6rem;
+        margin-top: 13.1rem;
+    }
+    .paragraph{
+        width: 33.9rem;
+        height: 7.8rem;
+    }
+    .pre-order2{
+        width: 17.5rem;
+        height:5.8rem ;
+    }
+    .keyboard{
+        position:absolute;
+        width: 93.4rem;
+        height: 52.6rem;
+        
+        left: 32.964rem;
+        top: 7.453rem;
+      
+        
+    }
+    .keyboard-tablet{
+        display: block;
+        width: 47.8rem;
+        height: 42.5rem;
+        border-radius: 2rem;
+        margin-top:8.5rem;
+        margin-left: 11.736rem;
+    }
+    .keyboard-photo,
+    .phone-keyboard,
+    .glass-keyboard{
+        display: none;
+        
+    }
+    .image1{
+        width: 35.4rem;
+        height: 55.4rem;
+        top: 50.8rem;
+        left: -7.42rem;
+     
+    }
+    .tablet-phone-keyboard{
+        display: block;
+        width: 21.4rem;
+        height: 32rem;
+        border-radius: 2rem;
+        mix-blend-mode: multiply;
+        
+        
+    }
+    .orange{
+        width: 21.4rem;
+        height: 32rem;
+        margin-top: 11.7rem;
+        margin-left: 9.32rem;
+    }
+    .image2{
+        width: 89.5rem;
+        height: 67.1rem;
+        top: 41.043rem;
+        left: 28.25rem;
+       
+    }
+    .tablet-glass-keyboard{
+        display: block;
+        width: 44.5rem;
+        height: 32rem;
+        border-radius: 2rem;
+        margin-top: 21.417rem;
+    }
+    .section2{
+        min-width: 68.9rem;
+        height: 10.8rem;
+        display: flex;
+        flex-direction: row;
+        column-gap: 3.6rem;
+        top: 101.7rem;
+       
+       
+    }
+    .title2>h1{
+        text-align: left;
+    }
+    .paragraph2>p{
+        text-align: left;
+
+
+    }
+    .title2{
+        width: 25.5rem;
+        height: 10.8rem;
+ 
+        margin-left: 2.1rem;
+        
+    }
+    .paragraph2{
+        width: 39.8rem;
+        height: 7.8rem;
+        margin-top: 1.5rem;
+        margin-right: 4rem;
+        margin-left: 0rem;
+    }
+    h1,
+    p{
+        text-align: left;
+    }
+    .container1,
+    .container2,
+    .container3,
+    .container4{
+        align-items: normal;
+        width: 28.1rem;
+    }
+    .paragraph3,
+    .paragraph4,
+    .paragraph5,
+    .paragraph6{
+        margin-left: 0;
+        width: 28.1rem;
+        height: 10.4rem;
+    }
+    .whole{
+        display: grid;
+        width: 63.1rem;
+        height: 65rem;
+        grid-template-columns: max-content 770px;
+        column-gap: 6.9rem;
+        row-gap: 7.2rem;
+        top:126.7rem;
+        left: 2.1rem;
+    }
+   .last-container{
+    top: 205.9rem;
+    
+    left: 24.7rem;
+   }
+   
+}
+
+@media screen and (min-width: 900px) {
+
+    header{
+        margin-top: 6.4rem;
+    }
+    .logo{
+        margin-left: 12.6rem;
+    }
+    .pre-order1{
+        margin-right: 12.5rem;
+    }
+    
+    
+    .keyboard-desktop{
+        display: block;
+        border-radius: 2rem;
+        width: 54rem;
+        height: 48rem;
+        margin-top: 17.25rem;
+        margin-left: 17.65rem;
+
+    }
+    .keyboard-tablet{
+        display: none;
+        
+    }
+    .keyboard{
+        width: 132.6rem;
+        height: 74.6rem;
+        top:2.35rem;
+        left: 50.85rem;
+        display: flex;
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title{
+        width: 44.5rem;
+        height: 11.2rem;
+        margin-left: 0;
+    }
+    .title>h1{
+      
+        font-size: 56px;
+        font-weight: 900;
+        line-height: 56px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+    .paragraph>p{
+            
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+    .paragraph{
+        width: 44.5rem;
+        height: 7.8rem;
+        margin-left: 0;
+    }
+    .active{
+        justify-content: normal;
+        column-gap: 4rem;
+        margin-left: 0;
+    }
+    .gray{
+        display: block;
+        background-color: #E8EFF2;
+        width: 25.5rem;
+        height: 24rem;
+        border-radius: 2rem;
+        margin-top: 17.25rem;
+    }
+    .text{
+        margin-left: 12.6rem;
+    }
+    .section2{
+        flex-direction: column;
+        top: 81.8rem;
+        left: 102rem;
+
+        
+    }
+    .title2{
+        margin-left: 0;
+    }
+    .tablet-phone-keyboard,
+    .tablet-glass-keyboard{
+        display: none;
+    }
+    .gray2{
+        background-color: #E8EFF2;
+        width: 25.5rem;
+        height: 23.6rem;
+        border-radius: 2rem;
+        position: absolute;
+        top: 95rem;
+        left: -12rem;
+    }
+    .desktop-phone-keyboard{
+        display: block;
+        width: 25.5rem;
+        height: 48rem;
+        border-radius: 2rem;
+        mix-blend-mode: multiply;
+        
+    }
+    .desktop-glass-keyboard{
+        display: block;
+        width: 44.5rem;
+        height: 48rem;
+        border-radius: 2rem;
+        margin-top: 15.35rem;
+    }
+    
+    .title2{
+        width: 25.5rem;
+        height: 10.8rem;
+
+    }
+    .paragraph2{
+        width: 25.5rem;
+        height: 13rem;
+    }
+    .orange{
+        width: 25.5rem;
+        height: 48rem;
+        margin-top: 3.5rem;
+        margin-left: 5.45rem;
+       
+    }
+    .image1{
+        top: 66.9rem;
+        left: 11.05rem;
+        
+    }
+    .image2{
+        top: 55.25rem;
+        left: 45.05rem;
+    }
+    .whole{
+        display: flex;
+        flex-direction: row;
+    }
+    .last-container{
+        top: 180.5rem;
+        left: 56.8rem;
+    }
+    
+}

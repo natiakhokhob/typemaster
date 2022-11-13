@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    
+
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+ 
+
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.7rem;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 13.65rem;
+    margin-left: 2.4rem;
+    
+
+}
+.pre-order1{
+    background-color: #E8EFF2;
+    border-radius: 0.8rem;
+    width: 15rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 2.45rem;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #162542;
+border: none;
+}
+
+
+.pre-order1:hover{
+    background-color: #162542;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.title>h1{
+    text-transform: uppercase;
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+}
+.title{
+    min-width: 32.7rem;
+    height: 9.6rem;
+    margin-top: 6.8rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+
+}
+.paragraph{
+    min-width: 32.7rem ;
+    height:7.2rem ;
+    margin-top: 3.2rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+.paragraph>p{
+    font-family: 'Barlow';
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #7B8BAD;
+}
+.pre-order2{
+    border-radius: 0.8rem;
+    width: 15rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #F16718;
+    cursor: pointer;
+}
+.pre-order2:hover{
+    opacity: 0.5;
+}
+.pre-order2>h2{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.4rem;
+    margin-right: 4.2rem;
+    margin-top: 3.2rem;
+}
+
+.release-on{
+    width: 12.7rem;
+    height: 2.6rem;
+
+}
+.release-on>h2{
+    color: #7B8BAD;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+ }
+
+ .keyboard{
+    width: 44.233rem;
+    height: 40.966rem;
+    position: absolute;
+    left: -6.733rem;
+    top: 44.543rem;
+    overflow: hidden;
+ }
+.keyboard-photo{
+    width: 37.2rem;
+    height: 33.1rem;
+    border-radius: 2rem;
+    margin-left: 9.133rem;
+    margin-top: 3.957rem;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.351rem;
+}
+.image1{
+    width: 14.4rem;
+    height: 22.6rem;
+    position: absolute;
+    top: 84rem;
+    left: -3.203rem;
+    background-color: white;
+    mix-blend-mode: multiply;
+ 
+}
+.orange{
+    width: 12.9rem;
+    height: 19.3rem;
+    border-radius: 2rem;
+    margin-left: 1.003rem;
+    background-color:#F16718;
+}
+.phone-keyboard{
+    width: 12.9rem;
+    height: 19.3rem;
+    border-radius: 2rem;
+    
+    mix-blend-mode:multiply;
+}
+
+
+.image2{
+    width: 44rem;
+    height: 33rem;
+    position: absolute;
+    top: 74.518rem;
+    left: 12.548rem ;
+}
+
+.glass-keyboard{
+    width: 22rem;
+    height: 19.3rem;
+    border-radius: 2rem;
+    margin-left: 0.552rem;
+    margin-top: 9.482rem;
+    
+}
+.section2{
+    position: absolute;
+    top: 110.8rem;
+}
+.title2>h1{
+    font-family: 'Barlow';
+font-size: 32px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: center;
+color: #162542;
+
+}
+.paragraph2>p{
+    font-family: 'Barlow';
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+color:#7B8BAD;
+
+}
+.title2{
+    width: 25.5rem;
+    height: 10.8rem;
+    
+    margin-left: 6rem;
+    margin-bottom: 2.4rem;
+}
+.paragraph2{
+    
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+.whole{
+    position: absolute;
+    top: 145.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6.4rem;
+}
+.icon{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 1.6rem;
+    background-color: #F16718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.8rem;
+}
+.container1,
+.container2,
+.container3,
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Barlow';
+font-size: 24px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+color: #162542;
+text-transform: uppercase;
+
+}
+p{
+    font-family: 'Barlow';
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+color: #7B8BAD;
+}
+
+.title3,
+.title4,
+.title5,
+.title6{
+    width: 32.7rem;
+    height: 5.6rem;
+    margin-bottom: 2.4rem;
+}
+.paragraph3,
+.paragraph4,
+.paragraph5,
+.paragraph6{
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+.last-container{
+    position: absolute;
+    top: 293.1rem;
+    left: 5.1rem;
+    
+    
+}
+span{
+    font-weight: 700;
+}
+.bold{
+    margin-bottom: 5rem;
+}
+.keyboard-tablet,
+.tablet-phone-keyboard,
+.tablet-glass-keyboard,
+.keyboard-desktop,
+.gray,
+.desktop-phone-keyboard,
+.desktop-glass-keyboard{
+    display: none;
+}
+
