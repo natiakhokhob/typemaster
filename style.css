@@ -10,24 +10,34 @@ html{
 
 }
 body{
+    max-width: 768px;
     background-color: white;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
  
 
 }
 
+
 header{
+   
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 2.7rem;
+  
+  margin: 2.7rem 2.4rem 0rem 2.4rem;
+  
+  
 }
 
 .logo{
     width: 4rem;
     height: 4rem;
+    /*
     margin-right: 13.65rem;
     margin-left: 2.4rem;
+    */
     
 
 }
@@ -40,7 +50,8 @@ header{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin-right: 2.45rem;
+}
+.pre-order1>h2{
     font-family: 'Barlow';
 font-style: normal;
 font-weight: 700;
@@ -48,17 +59,22 @@ font-size: 16px;
 line-height: 26px;
 text-transform: uppercase;
 color: #162542;
-border: none;
-cursor: pointer;
+
+}
+.pre-order1>h2:hover{
+    color: white;
+    cursor: pointer;
 }
 
 
 .pre-order1:hover{
+    cursor: pointer;
     background-color: #162542;
-    color: white;
+    
     
    
 }
+
 
 .title>h1{
     text-transform: uppercase;
@@ -119,21 +135,24 @@ color: #7B8BAD;
 
 }
 .active{
-    width: 100%;
+    min-width: 32.7rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    
+    margin:  3.2rem 4.2rem 0rem 2.4rem;
+    justify-content: space-between;
+    /*
     margin-left: 2.4rem;
     margin-right: 4.2rem;
-    margin-top: 3.2rem;
+    margin-top: 3.2rem;*/
 }
 
 .release-on{
-    margin-right: 4.2rem;
     width: 12.7rem;
     height: 2.6rem;
 
+    
 }
 .release-on>h2{
     color: #7B8BAD;
@@ -142,30 +161,34 @@ color: #7B8BAD;
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
+    text-transform: uppercase;
  }
 
  .keyboard{
-    width: 100%;
-    /*width: 44.233rem;*/
+    
+    width: 72.688rem;
     height: 40.966rem;
     position: absolute;
     left: -6.733rem;
     top: 44.543rem;
+    overflow: hidden;
  }
 .keyboard-photo{
-    width: 100%;
-   /* width: 37.2rem;*/
+    overflow: hidden;
+    width: 37.2rem;
     height: 33.1rem;
     border-radius: 2rem;
     margin-left: 9.133rem;
     margin-top: 3.957rem;
+   
 }
 
 .images{
-    width: 100%;
+    
     display: flex;
     flex-direction: row;
     column-gap: 1.351rem;
+    overflow-x: hidden;
 }
 .image1{
     width: 14.4rem;
@@ -199,6 +222,8 @@ color: #7B8BAD;
     position: absolute;
     top: 74.518rem;
     left: 12.548rem ;
+  
+    overflow-x: hidden;
 }
 
 .glass-keyboard{
@@ -246,6 +271,8 @@ color:#7B8BAD;
     margin-right: 2.4rem;
 }
 .whole{
+    
+    max-width: 375px;
     position: absolute;
     top: 145.5rem;
     display: flex;
@@ -307,6 +334,7 @@ color: #7B8BAD;
     margin-right: 2.4rem;
 }
 .last-container{
+   
     position: absolute;
     top: 293.1rem;
     left: 5.1rem;
@@ -330,16 +358,22 @@ span{
 }
 
 
-@media screen and (min-width: 770px) {
-  
+
+
+@media screen and (min-width: 768px) {
+    body{
+        max-width: 900px;
+    }
+   .logo{
+    width: 4rem;
+    height: 4rem;
+   }
     header{
-         margin-top: 4.9rem;
+         margin: 4.9rem 4rem 0rem 3.9rem;
      }
-     .logo{
-         margin-left: 3.9rem;
-     }
+     
      .pre-order1{
-         margin-right: 4rem;
+        
          width: 17.5rem;
          height: 5.8rem;
      }
@@ -348,15 +382,22 @@ span{
          display: flex;
          flex-direction: row;
      }
+
      .title{
-         width: 33.9rem;
-         height: 9.6rem;
-         margin-top: 13.1rem;
-     }
-     .paragraph{
-         width: 33.9rem;
-         height: 7.8rem;
-     }
+        width: 33.9rem;
+        height: 9.6rem;
+        margin-top: 13.1rem;
+        margin-left: 3.9rem;
+    
+    }
+    .paragraph{
+        width: 33.9rem;
+        height: 7.8rem;
+        margin-top: 3.4rem;
+        margin-left: 3.9rem;
+    }
+
+     
      .pre-order2{
          width: 17.5rem;
          height:5.8rem ;
@@ -491,16 +532,59 @@ span{
  }
  
  @media screen and (min-width: 900px) {
- 
+     
+    body{
+        max-width: 1440px;
+    }
      header{
-         margin-top: 6.4rem;
-     }
-     .logo{
-         margin-left: 12.6rem;
+        margin-top: 6.4rem;
+        margin-left: 16.5rem;
+        margin-right:  16.5rem;
+        
+         
      }
      .pre-order1{
-         margin-right: 12.5rem;
+        width: 17.5rem;
+        height: 5.8rem;
+    }
+    .pre-order1:hover{
+        background-color: #162542;
      }
+     
+     .title{
+        width: 44.5rem;
+        height: 11.2rem;
+        margin-left: 16.5rem;
+ 
+       
+    }
+    .paragraph{
+        width: 44.5rem;
+        height: 7.8rem;
+        margin-top: 2.4rem;
+        margin-left: 16.5rem;
+    }
+    .title>h1{
+       
+        font-size: 56px;
+        font-weight: 900;
+        line-height: 56px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+    .paragraph>p{
+            
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+    
+    
+     
      
      
      .keyboard-desktop{
@@ -509,7 +593,7 @@ span{
          width: 54rem;
          height: 48rem;
          margin-top: 17.25rem;
-         margin-left: 17.65rem;
+        margin-left: 17.65rem;
  
      }
      .keyboard-tablet{
@@ -517,19 +601,18 @@ span{
          
      }
      .keyboard{
-         width: 132.6rem;
+        width: 88.15rem;
+        /*
+        width: 132.6rem;
+        */
          height: 74.6rem;
          top:2.35rem;
-         left: 50.85rem;
+         left: 55.85rem;
          display: flex;
          flex-direction: row;
          column-gap: 3rem;
      }
-     .title{
-         width: 44.5rem;
-         height: 11.2rem;
-         margin-left: 0;
-     }
+    
      .title>h1{
        
          font-size: 56px;
@@ -548,16 +631,14 @@ span{
          text-align: left;
  
      }
-     .paragraph{
-         width: 44.5rem;
-         height: 7.8rem;
-         margin-left: 0;
-     }
+    
      .active{
          justify-content: normal;
          column-gap: 4rem;
-         margin-left: 0;
+         margin-left: 16.5rem;
+         margin-top: 4rem;
      }
+     
      .gray{
          display: block;
          background-color: #E8EFF2;
@@ -565,10 +646,11 @@ span{
          height: 24rem;
          border-radius: 2rem;
          margin-top: 17.25rem;
+         
      }
-     .text{
-         margin-left: 12.6rem;
-     }
+     
+     
+     
      .section2{
          flex-direction: column;
          top: 81.8rem;
@@ -634,9 +716,30 @@ span{
          left: 45.05rem;
      }
      .whole{
+        margin-left: 16.5rem;
          display: flex;
          flex-direction: row;
      }
+     .container1,
+     .container2,
+     .container3,
+     .container4{
+         width: 25.5rem;
+     }
+     .title3,
+     .title4,
+     .title5,
+     .title6 {
+        width: 25.5rem;
+        height: 5.6rem;
+     }
+     .paragraph3,
+.paragraph4,
+.paragraph5,
+.paragraph6{
+    width: 25.5rem;
+    height: 13rem;
+}
      .last-container{
          top: 180.5rem;
          left: 56.8rem;
